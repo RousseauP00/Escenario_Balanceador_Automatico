@@ -1,5 +1,16 @@
-Este proyecto desarrolla un script en Python para la gestión automática de un escenario virtual diseñado para balanceadores de tráfico. El script permite crear, configurar, arrancar y detener máquinas virtuales, así como gestionar las redes que las conectan, siguiendo un enfoque no interactivo y basado en comandos.
+# Escenario Balanceador Automático
 
-El escenario incluye un balanceador de tráfico y varios servidores web configurables, lo que facilita su despliegue y administración. Gracias a la automatización, este proyecto es ideal para entornos de prueba y simulación.
+## Introducción
 
-A continuación, se incluye una imagen que representa el escenario implementado.
+Este proyecto desarrolla un script en Python para la gestión automática de un escenario virtual diseñado para balanceadores de tráfico.  
+El script permite:  
+- Crear y configurar máquinas virtuales (VMs).  
+- Arrancar, detener y liberar las VMs.  
+- Gestionar redes virtuales y bridges asociados.  
+
+El escenario incluye un balanceador de tráfico y servidores web configurables (de 1 a 5), lo que facilita su despliegue en entornos de prueba y simulación.  
+
+A continuación, se incluye una imagen que representa el escenario implementado:
+
+![Escenario Virtual](ruta/a/la/imagen.png)
+
